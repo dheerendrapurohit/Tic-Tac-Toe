@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <audio src="../retro-game-arcade-short-236130.mp3" autoplay loop></audio>
+
+  <div id="gameSettings">
+    <label for="">Player 1:</label>
+    <input type="text" id="player1Name" placeholder="Player 1 Name" required>
+    <label for="">Player 2:</label>
+    <input type="text" id="player2Name" placeholder="Player 2 Name" required>
+    <button id="startGame">Start Game</button>
+  </div>
+
+  <div id="gameStatus"></div>
+
+  <div id="gameboard"></div>
+
+  <div id="btn"> <button id="restartGame" style="display:none;">Restart Game</button></div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
